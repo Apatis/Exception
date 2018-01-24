@@ -1,0 +1,25 @@
+{
+    "name": "apatis/exception",
+    "description": "Exception Helper For Prima Framework",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "apatis/http-message": "~1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pentagonal",
+            "email": "org@pentagonal.org",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Apatis\\Exception\\" : "src/"
+        }
+    }
+}
